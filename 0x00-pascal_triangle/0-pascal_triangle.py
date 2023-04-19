@@ -19,7 +19,7 @@ def pascal_triangle(n):
         raise TypeError("n must be an integer")
     a = [[] for i in range (n)]
     if n <= 0:
-        return triangle
+        return a
     for i in range (n):
         for j in range (i + 1):
             if (j < i):
