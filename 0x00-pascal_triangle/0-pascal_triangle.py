@@ -17,11 +17,11 @@ def pascal_triangle(n):
     """
     if type(n) is not int:
         raise TypeError("n must be an integer")
-    a = [[] for i in range (n)]
+    a = [[] for i in range(n)]
     if n <= 0:
         return a
-    for i in range (n):
-        for j in range (i + 1):
+    for i in range(n):
+        for j in range(i + 1):
             if (j < i):
                 if (j == 0):
                     a[i].append(1)
