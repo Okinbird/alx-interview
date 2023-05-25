@@ -8,8 +8,6 @@
 <sub>Chess grandmaster Judit Polgár, the strongest female chess player of all time</sub>
 
 
-Chess grandmaster Judit Polgár, the strongest female chess player of all time
-
 The N queens puzzle is the challenge of placing N non-attacking queens on an N×N chessboard. Write a program that solves the N queens problem.
 
 *   Usage: `nqueens N`
