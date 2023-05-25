@@ -22,8 +22,8 @@ class NQueens:
                 return 0
         return 1
 
-    def nQueen(self, k):
-        """ Resolve the nqueen """
+    def solveNQ(self, k):
+        """ Solve the nqueen """
         for i in range(1, self.n + 1):
             if self.isSafe(k, i):
                 self.x[k] = i
@@ -33,7 +33,7 @@ class NQueens:
                         solution.append([i - 1, self.x[i] - 1])
                     self.res.append(solution)
                 else:
-                    self.nQueen(k + 1)
+                    self.solveNQ(k + 1)
         return self.res
 
 
@@ -54,7 +54,7 @@ if number < 4:
     sys.exit(1)
 
 queen = NQueens(number)
-result = queen.nQueen(1)
+result = queen.solveNQ(1)
 
 for i in result:
     print(i)
