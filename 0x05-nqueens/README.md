@@ -3,9 +3,7 @@
 
 ##  0. N queens
 
-![Judit](https://github.com/Okinbird/alx-interview/blob/master/0x05-nqueens/Judit-photo1.jpg)
-
-<sub>Chess grandmaster Judit Polgár, the strongest female chess player of all time</sub>
+![Judit](https://github.com/Okinbird/alx-interview/blob/master/0x05-nqueens/Judit-photo1.jpg)<sub>Chess grandmaster Judit Polgár, the strongest female chess player of all time</sub>
 
 Chess grandmaster Judit Polgár, the strongest female chess player of all time
 
