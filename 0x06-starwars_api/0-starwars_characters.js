@@ -1,5 +1,7 @@
 #!/usr/bin/node
 
+// script that prints all characters of a Star Wars movie
+
 const request = require('request');
 
 const movieID = process.argv[2] + '/';
@@ -17,7 +19,7 @@ request(swapiURL + movieID, async function (error, response, body) {
   for (const charURL of charURLList) {
     await new Promise(function (resolve, reject) {
       request(charURL, function (error, response, body) {
-        if (error) return console.error(errot);
+        if (error) return console.error(error);
 
         // finds each character name and prints in URL order
         console.log(JSON.parse(body).name);
